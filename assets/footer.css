@@ -1,0 +1,50 @@
+/* --------------------- css du footer----------------- */
+footer {
+  background-image: url("/assets/img/logo_meyla-favicon.png");
+  background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(91, 30, 126));
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 30px;
+  font-family: "fredoka-one", cursive;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 900;
+  transition: 0.3s;
+}
+.footer-links a:hover {
+  opacity: 0.2;
+  font-size: 29px;
+}
+
+.footer-image {
+  height: 200px; /* ajustez la hauteur selon vos besoins */
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+#logo_footer {
+  width: 100px;
+  height: 100px;
+  box-shadow: 10px 10px 100px 10px black;
+  margin-top: 30px;
+}
+#p_footer {
+  font-size: 13px;
+  text-align: right;
+  font-family: "Lato";
+  margin-right: 7px;
+}
